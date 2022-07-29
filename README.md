@@ -14,3 +14,4 @@ Future steps for the project:
 1. There should ideally be atleast 40 classes in the experiments for it to be considered useful. The next update to the repo will be with using transformers as a part of the experiment. Either training a model from scratch or attempting to take a language model like BERT and fine-tuning it for this problem. 
 2. The complex nature of the g_mode_spacing makes it difficult for the model to map. Fourier transforms did not smooth the signal as much as required so alternate methods. Alternate methods to decompose the data into an exponential or linear format need to be found.
 3. Further experimentation with preprocessing of the inputs and the outputs to find a mapping which could model it the best.
+4. Learning more about the underlying physics of these stars and the similarities with other stars. This helps in replicating the ML techniques they have utilised on the data.
