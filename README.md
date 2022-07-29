@@ -6,4 +6,4 @@ Important Notes:
 2. There are processed frequency data files which are too large to be uploaded here. Therefore, they are attached in the Google Drive link here:
 https://drive.google.com/drive/folders/190Mvrx6QPo7SA_TWf2QRpfEuqm_16sRM?usp=sharing. Please download any one of the two files. One is in float format and the other in integer format depending on your system's storage.
 
-3. For the baseline models, I have taken the first 20000 points for training the model. Please feel free to change this before running the file. In the processed data, you will only find the first 2 parameters in separate dataframes as those 2 are the most crucial parameters and the rest of the parameters can be calculated with them. Therefore, it is crucial to get a good result on the first two!
+3. For few files, I have taken the first 20000 points for training the model. Please feel free to change this before running the file. In the processed data, you will only find the first 2 parameters in separate dataframes as those 2 are the most crucial parameters and the rest of the parameters can be calculated with them. Therefore, it is crucial to get a good result on the first two!
