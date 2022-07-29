@@ -8,3 +8,9 @@ https://drive.google.com/drive/folders/190Mvrx6QPo7SA_TWf2QRpfEuqm_16sRM?usp=sha
 
 3. For few files, I have taken the first 20000 points for training the model. Please feel free to change this before running the file. In the processed data, you will only find the first 2 parameters in separate dataframes as those 2 are the most crucial parameters and the rest of the parameters can be calculated with them. Therefore, it is crucial to get a good result on the first two!
 4. Here is the internship journal I maintained - https://docs.google.com/document/d/1w4rzYoEQIInOOh4ttYrjsNuCLTZT_ACjBCg7f_3zxAY/edit?usp=sharing containing personal notes, past approaches ,experiments carried out and potential new avenues of research. This will aid in trying out new experiments or refactoring the code for older experiments to improve the results
+
+Future steps for the project:
+
+1. There should ideally be atleast 40 classes in the experiments for it to be considered useful. The next update to the repo will be with using transformers as a part of the experiment. Either training a model from scratch or attempting to take a language model like BERT and fine-tuning it for this problem. 
+2. The complex nature of the g_mode_spacing makes it difficult for the model to map. Fourier transforms did not smooth the signal as much as required so alternate methods. Alternate methods to decompose the data into an exponential or linear format need to be found.
+3. Further experimentation with preprocessing of the inputs and the outputs to find a mapping which could model it the best.
